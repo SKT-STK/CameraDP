@@ -10,6 +10,9 @@ kill @e[type=item,x=-64,y=0,z=-64,dx=128,dy=2,dz=128]
 kill @e[tag=camera.hitler]
 tag @s remove camera.taking_picture
 
+execute store result storage camera.map pos.x double 1 run data get entity @s Pos[0]
+execute store result storage camera.map pos.z double 1 run data get entity @s Pos[2]
+
 tp @a[tag=camera.player] 0 3 0
 attribute @p[tag=camera.player] movement_speed base set 0
 attribute @p[tag=camera.player] jump_strength base set 0

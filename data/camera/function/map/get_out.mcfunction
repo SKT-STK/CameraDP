@@ -1,5 +1,6 @@
-execute run spreadplayers 0 0 0 1 false @a[tag=camera.player]
-execute at @n[tag=camera.camera] run tp @a[tag=camera.player] ~ ~ ~ 0 0
+# execute run spreadplayers 0 0 0 1 false @a[tag=camera.player]
+# execute at @n[tag=camera.camera] run tp @a[tag=camera.player] ~ ~ ~ 0 0
+function camera:map/overworld_tp with storage camera.map pos
 function camera:map/clear with storage camera.map
 execute if data storage camera.map item at @a[tag=camera.player] run summon item ~ ~ ~ {Item:{id:dirt},PickupDelay:0}
 data modify entity @n[type=item,nbt={Age:0s}] Item set from storage camera.map item
