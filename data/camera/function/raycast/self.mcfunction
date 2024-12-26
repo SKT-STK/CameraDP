@@ -1,8 +1,10 @@
-execute if block ~ ~ ~ air positioned ^ ^ ^.5 run return run function camera:raycast/self
+scoreboard players add @s camera.raycast_length 1
+execute unless score @s camera.raycast_length matches 400 if block ~ ~ ~ #camera:airs positioned ^ ^ ^.5 run return run function camera:raycast/self
 
-forceload add 0 0
-clone ~ ~ ~ ~ ~ ~ 0 0 0
-execute at @p run clone 0 0 0 0 0 0 ~ ~ ~
-forceload remove 0 0
+clone ~ ~ ~ ~ ~ ~ to camera:camera_paintings 0 3 0
+execute at @e[tag=camera.hitler] run clone from camera:camera_paintings 0 3 0 0 3 0 ~ ~ ~
 
-#* clone ~ ~ ~ ~ ~ ~ to camera:camera_paintings 0 1 0 --> thats how we make use of the custom dimension
+execute if score @s camera.raycast_length matches 400 at @e[tag=camera.hitler] run setblock ~ ~ ~ diamond_block
+scoreboard players reset @s camera.raycast_length
+
+scoreboard players add @s camera.cur_step 1
