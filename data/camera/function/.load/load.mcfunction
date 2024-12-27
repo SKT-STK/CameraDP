@@ -14,5 +14,3 @@ scoreboard players reset * camera.raycast_length
 scoreboard players reset * camera.placed
 scoreboard players reset * camera.map
 scoreboard players reset * camera.BOOL
-
-# execute in camera:camera_paintings run function camera:.load/in_camera_painting
