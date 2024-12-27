@@ -1,0 +1,2 @@
+interaction entity for destroying and taking the photo,
+having to click with a canvas for the interaction to work

@@ -37,6 +37,7 @@
     "warped_roots",
     "hanging_roots",
     "nether_sprouts",
+    "vine",
     "#cave_vines",
     "weeping_vines",
     "weeping_vines_plant",
@@ -56,8 +57,11 @@
     "sculk_vein",
     "cobweb",
     "torch",
+    "wall_torch",
     "soul_torch",
+    "soul_wall_torch",
     "redstone_torch",
+    "redstone_wall_torch",
     "lantern",
     "soul_lantern",
     "end_rod",
@@ -86,6 +90,7 @@
     "comparator",
     "tripwire_hook",
     "tripwire",
-    "#rails"
+    "#rails",
+    "#trapdoors"
   ]
 }

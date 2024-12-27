@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "&&$",
+    "%^#",
+    "*@$"
+  ],
+  "key": {
+    "@": "minecraft:armor_stand",
+    "#": "minecraft:observer",
+    "$": "minecraft:glass",
+    "%": "minecraft:redstone",
+    "^": "minecraft:quartz",
+    "&": "minecraft:iron_ingot",
+    "*": "#minecraft:logs"
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:item_name": "\"Camera\"",
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoGravity": true,
+        "Tags": [
+          "camera.placed",
+          "camera.head"
+        ],
+        "ArmorItems": [
+          {
+            "id": "dirt"
+          },
+          {
+            "id": "dirt"
+          },
+          {
+            "id": "dirt"
+          },
+          {
+            "id": "dirt",
+            "components": {
+              "minecraft:item_model": "camera:camera"
+            }
+          }
+        ],
+        "Invisible": true,
+        "DisabledSlots": 4144959
+      },
+      "minecraft:item_model": "camera:camera"
+    }
+  }
+}
