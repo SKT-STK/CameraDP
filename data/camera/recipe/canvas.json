@@ -3,12 +3,13 @@
   "category": "misc",
   "pattern": [
     "@@@",
-    "@#@",
+    "$#$",
     "@@@"
   ],
   "key": {
     "@": "minecraft:stick",
-    "#": "minecraft:brush"
+    "#": "minecraft:brush",
+    "$": "minecraft:string"
   },
   "result": {
     "id": "minecraft:music_disc_13",

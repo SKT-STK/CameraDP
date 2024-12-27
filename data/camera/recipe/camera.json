@@ -10,8 +10,8 @@
     "@": "minecraft:armor_stand",
     "#": "minecraft:observer",
     "$": "minecraft:glass",
-    "%": "minecraft:redstone",
-    "^": "minecraft:quartz",
+    "%": "#minecraft:stone_crafting_materials",
+    "^": "minecraft:amethyst_shard",
     "&": "minecraft:iron_ingot",
     "*": "#minecraft:logs"
   },
