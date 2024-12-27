@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "hit_interaction": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"camera.interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "camera:summon/kill"
+  }
+}

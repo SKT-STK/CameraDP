@@ -39,14 +39,15 @@
           {
             "id": "dirt",
             "components": {
-              "minecraft:item_model": "camera:camera"
+              "minecraft:item_model": "camera:camera_head"
             }
           }
         ],
         "Invisible": true,
         "DisabledSlots": 4144959
       },
-      "minecraft:item_model": "camera:camera"
+      "minecraft:item_model": "camera:camera",
+      "minecraft:max_stack_size": 1
     }
   }
 }

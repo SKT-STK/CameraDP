@@ -1,0 +1,9 @@
+{
+  "block.camera.take_photo": {
+    "sounds": [
+      "camera:block/camera/take_photo/1",
+      "camera:block/camera/take_photo/2",
+      "camera:block/camera/take_photo/3"
+    ]
+  }
+}

@@ -2,11 +2,15 @@
   "cSpell.words": [
     "Datapack",
     "forceload",
+    "itll",
     "mainhand",
     "overworld",
+    "playsound",
     "setblock",
     "spreadplayers",
+    "stopsound",
     "tellraw",
-    "thatll"
+    "thatll",
+    "youll"
   ]
 }
