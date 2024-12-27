@@ -1,0 +1,21 @@
+{
+  "parent": "camera:camera_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:dirt",
+      "components": {
+        "minecraft:item_model": "camera:camera"
+      }
+    },
+    "title": "It's so beautiful here!",
+    "description": "Place down a camera.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "main": {
+      "trigger": "impossible"
+    }
+  }
+}

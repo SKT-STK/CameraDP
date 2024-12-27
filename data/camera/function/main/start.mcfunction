@@ -1,3 +1,5 @@
+advancement grant @a[scores={camera.placed=1..}] only camera:place_camera
+
 execute in camera:camera_paintings run function camera:full_sweep
 execute in camera:camera_paintings run forceload add -64 -64 64 64
 
