@@ -5,7 +5,7 @@ kill @e[tag=camera.camera]
 kill @e[tag=camera.legs]
 kill @e[tag=camera.head]
 
-give @s armor_stand[item_name='"Camera"',item_model="camera:camera",entity_data={id:"minecraft:armor_stand",Tags:["camera.head","camera.placed"],NoGravity:1b,Invisible:1b,ArmorItems:[{},{},{},{id:dirt,components:{item_model:"camera:camera_head"}}]},max_stack_size=1] 1
+give @s armor_stand[item_name='"Camera"',item_model="camera:camera",entity_data={id:"minecraft:armor_stand",Tags:["camera.head","camera.placed"],NoGravity:1b,Invisible:1b,ArmorItems:[{},{},{},{id:dirt,components:{item_model:"camera:camera"}}]},max_stack_size=1] 1
 
 playsound entity.armor_stand.break block @a ~ ~ ~ 1 1
 

@@ -9,6 +9,7 @@ tag @s add camera.taking_picture
 execute in camera:camera_paintings run function camera:summon/markers
 execute in camera:camera_paintings as @e[tag=camera.brush] in minecraft:overworld run function camera:summon/armors/self
 summon armor_stand ~ ~ ~ {Tags:["camera.legs"],Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:dirt,components:{item_model:"camera:camera_legs"}}]}
+data modify entity @s ArmorItems[3] set value {id:dirt,components:{item_model:"camera:camera_head"}}
 summon interaction ~ ~-.01 ~ {width:0.51,height:1.995,Tags:["camera.interaction"]}
 
 scoreboard players set % camera.rot.1 -41
